@@ -1,6 +1,6 @@
 #!/bin/bash
 
 cd build/
-make all
+make .
 cd ../playground
 ./playground
