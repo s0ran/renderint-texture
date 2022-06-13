@@ -66,6 +66,8 @@ add_executable(playground
 	common/objloader.hpp
 	common/vboindexer.cpp
 	common/vboindexer.hpp
+	playground/StandardShading.vshader
+	playground/StandardShading.fshader
 )
 target_link_libraries(playground
 	${ALL_LIBS}
